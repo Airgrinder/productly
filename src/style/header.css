@@ -1,0 +1,72 @@
+.header {
+  width: 1440px;
+  height: 78px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  align-self: baseline;
+  margin: 13px  0 0 122px;
+  letter-spacing: -0.4px;
+}
+
+.header-logo span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 31px;
+  margin-left: 9px;
+  color: #173A56;
+}
+
+.header-nav {
+  margin: 28px 45px 0 0;
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.header-nav__item {
+  margin-right: 28px;
+}
+
+.header-nav__item:last-child {
+  margin-right: 0;
+}
+
+.header-login {
+  display: flex;
+  justify-content: space-evenly;
+  height: 47px;
+  margin: 15px 120px 0 0;
+}
+
+.header-login__btn {
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  height: 44px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.header-login__btn span {
+  margin-top: 11px;
+}
+
+.sign-in {
+  margin-right: 15px;
+  width: 103px;
+  border: 1px solid #BCD0E5;
+}
+
+.sign-up {
+  background: #FF9900;
+  width: 111px;
+  color: #ffffff;
+  border: 1px solid #FF9900;
+}
