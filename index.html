@@ -10,20 +10,38 @@
   </head>
   <body>
     <section class="header">
-      <div class="header-logo">
-        <img src="src/icon/LogoIcon.png" alt="Logo">
-        <span>Productly</span>
+      <div class="header-wrapper">
+        <div class="header-logo">
+          <img src="src/icon/LogoIcon.png" alt="Logo">
+          <span>Productly</span>
+        </div>
+        <ul class="header-nav">
+          <li class="header-nav__item"><a href="">Home</a></li>
+          <li class="header-nav__item"><a href="">Services</a></li>
+          <li class="header-nav__item"><a href="">About</a></li>
+          <li class="header-nav__item"><a href="">Product</a></li>
+        </ul>
+        <div class="header-login">
+          <a href="" class="sign-in btn header-login__btn"><span>Sign In</span></a>
+          <a href="" class="sign-up btn header-login__btn"><span>Sign Up</span></a>
+        </div>
       </div>
-      <ul class="header-nav">
-        <li class="header-nav__item">Home</li>
-        <li class="header-nav__item">Services</li>
-        <li class="header-nav__item">About</li>
-        <li class="header-nav__item">Product</li>
-      </ul>
-      <div class="header-login">
-        <a href="" class="sign-in btn header-login__btn"><span>Sign In</span></a>
-        <a href="" class="sign-up btn header-login__btn"><span>Sign Up</span></a>
+    </section>
+    <section class="hero">
+      <div class="hero-description">
+        <h1>The Design Thinking superpowers</h1>
+        <div class="hero-description-text">Tools, tutorials, design and innovation experts, all in one place! The most
+          intuitive way to imagine your next user experience.
+        </div>
+        <div class="hero-description-buttons">
+          <button class="hero-description-buttons__get-started">Get started</button>
+          <div class="hero-description-buttons__watch-the-video">
+            <img class="triangle" src="src/icon/Triangle.png" alt="play">
+            <button class="watch-the-video">Watch the Video</button>
+          </div>
+        </div>
       </div>
+      <div class="hero-img"><img src="src/img/hero.png" alt="Our heroes"></div>
     </section>
   </body>
 </html>

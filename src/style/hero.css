@@ -1,0 +1,80 @@
+.hero {
+  display: flex;
+  width: 1440px;
+}
+
+.hero-description {
+  margin-top: 113px;
+  margin-left: 122px;
+}
+
+.hero-description h1 {
+  width: 553px;
+  font-family: 'Poppins', serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  margin-bottom: 30px;
+}
+
+.hero-description-text {
+  font-family: 'Poppins', serif;
+  font-weight: 400;
+  font-size: 18.1px;
+  line-height: 28px;
+  width: 460px;
+}
+
+.hero-description-buttons {
+  margin-top: 56px;
+  display: flex;
+}
+
+.hero-description-buttons__get-started {
+  background: #FF9900;
+  height: 53px;
+  width: 174px;
+  color: #ffffff;
+  border: 1px solid #FF9900;
+  border-radius: 4px;
+  font-family: 'Open Sans', serif;
+  font-weight: 700;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.hero-description-buttons__get-started:hover {
+  background: #FF7549;
+  cursor: pointer;
+}
+
+.hero-description-buttons div {
+  margin-left: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-description-buttons__watch-the-video:hover {
+  filter: invert(55%) sepia(49%) saturate(1610%) hue-rotate(329deg) brightness(102%) contrast(101%);
+}
+
+.hero-description-buttons div button {
+  margin-left: 3px;
+  color: #FF9900;
+  border: none;
+  background: none;
+  font-family: 'Poppins', serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration-line: underline;
+  transition: 0.3s;
+}
+
+.hero-description-buttons div:hover {
+  color: #FF7549;
+  cursor: pointer;
+}
+
+.hero-img {
+  margin-top: 30px;
+}

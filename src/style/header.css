@@ -1,4 +1,11 @@
 .header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.header-wrapper {
   width: 1440px;
   height: 78px;
   display: flex;
@@ -22,27 +29,35 @@
 }
 
 .header-nav {
-  margin: 28px 45px 0 0;
+  margin: 28px 48px 0 0;
   display: flex;
   padding: 0;
   list-style-type: none;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .header-nav__item {
-  margin-right: 28px;
+  margin-right: 32px;
 }
 
 .header-nav__item:last-child {
   margin-right: 0;
 }
 
+.header-nav__item a {
+  transition: 0.3s;
+}
+
+.header-nav__item a:hover {
+  color: #FF9900;
+}
+
 .header-login {
   display: flex;
   justify-content: space-evenly;
   height: 47px;
-  margin: 15px 120px 0 0;
+  margin: 15px 119px 0 0;
 }
 
 .header-login__btn {
@@ -51,7 +66,7 @@
   justify-content: center;
   height: 44px;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 15.5px;
 }
 
 .header-login__btn span {
@@ -62,6 +77,11 @@
   margin-right: 15px;
   width: 103px;
   border: 1px solid #BCD0E5;
+  transition: 0.3s;
+}
+
+.sign-in:hover {
+  background: #BCD0E5;
 }
 
 .sign-up {
@@ -69,4 +89,9 @@
   width: 111px;
   color: #ffffff;
   border: 1px solid #FF9900;
+  transition: 0.3s;
+}
+
+.sign-up:hover {
+  background: #FF7549;
 }

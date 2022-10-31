@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Poppins:wght@700&display=swap');
 
 @import "src/style/header.css";
+@import "src/style/hero.css";
 
 * {
   text-decoration: none;
@@ -9,6 +10,8 @@
 
 body {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   font-family: 'Open Sans', sans-serif;
 }
