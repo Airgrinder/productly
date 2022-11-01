@@ -1,0 +1,77 @@
+.we-design {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.we-design h1 {
+  margin-top: 106px;
+  width: 462px;
+  font-family: 'Open Sans', serif;
+  font-size: 34px;
+  text-align: center;
+}
+
+.we-design-description {
+  margin-left: 65px;
+  width: 1260px;
+  padding: 0;
+  margin-top: 70px;
+  display: flex;
+  list-style-type: none;
+}
+
+.we-design-description__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 262px;
+  margin-right: 50px;
+}
+
+.we-design-description__item h2 {
+  margin-top: 30px;
+  margin-bottom: 16px;
+  font-family: 'Open Sans', serif;
+  font-size: 22px;
+  color: #2F281E;
+  letter-spacing: -0.4px;
+}
+
+.we-design-description__item div {
+  width: 255px;
+  font-family: 'Open Sans', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+}
+
+.we-design-button {
+  margin-left: 15px;
+  margin-top: 60px;
+  border-radius: 4px;
+  border: 0;
+  height: 53px;
+  width: 171px;
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #FF9900;
+  transition: 0.3s;
+}
+
+.we-design-button:hover {
+  background: #FF7549;
+}
+
+.we-design-background {
+  margin-top: 372px;
+  position: absolute;
+  width: 1197px;
+  height: 277px;
+  background-image: url("../img/Bg.svg");
+}
