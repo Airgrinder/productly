@@ -69,6 +69,7 @@
 }
 
 .we-design-background {
+  z-index: -1;
   margin-top: 372px;
   position: absolute;
   width: 1197px;

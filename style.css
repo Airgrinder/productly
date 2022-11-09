@@ -3,6 +3,7 @@
 @import "src/style/header.css";
 @import "src/style/hero.css";
 @import "src/style/we-design.css";
+@import "src/style/marketing.css";
 
 * {
   text-decoration: none;

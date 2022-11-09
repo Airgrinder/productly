@@ -1,0 +1,147 @@
+.marketing {
+  margin-top: 120px;
+  width: 1440px;
+}
+
+.marketing h1 {
+  font-family: 'Open Sans', serif;
+  font-weight: 700;
+  font-size: 34px;
+  color: #2F281E;
+  margin-left: 123px;
+}
+
+.marketing-description {
+  margin-left: 123px;
+  margin-top: 16px;
+}
+
+.marketing-filter {
+  margin-top: 26px;
+  margin-left: 122px;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+.marketing-filter__item {
+  display: flex;
+}
+
+.marketing-filter__item button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  background: #FFFFFF;
+  border-radius: 90px;
+  border: 1px solid #D7D7D7;
+  margin-right: 7px;
+  transition: 0.3s;
+  font-family: 'Open Sans', serif;
+}
+
+.marketing-filter__item button:hover {
+  background: #FF7549;
+}
+
+.all {
+  width: 43px;
+}
+
+.art {
+  width: 47px;
+}
+
+.culture {
+  width: 73px;
+}
+
+.design {
+  width: 70px;
+}
+
+.active button {
+  border: 0;
+  background: #FF9900;
+  color: #FFFFFF;
+}
+
+.marketing-cards {
+  margin: 0 121px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  margin-top: 30px;
+  width: 376px;
+  height: 377px;
+  background: #FFFFFF;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.05));
+  transition: 0.3s;
+}
+
+.card:hover {
+  filter: none;
+  color: #FF9900;
+}
+
+.card img {
+  border-radius: 8px 8px 0 0;
+}
+
+.card h2 {
+  margin: 19px 33px 0;
+  font-family: 'Open Sans', serif ;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.card-big {
+  margin-top: 30px;
+  width: 786px;
+  height: 377px;
+  background: #FFFFFF;
+  filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.05));
+  transition: 0.3s;
+}
+
+.card-big:hover {
+  filter: none;
+  color: #FF9900;
+}
+
+.card-big img {
+  border-radius: 8px 8px 0 0;
+}
+
+.card-big h2 {
+  margin: 19px 33px 0;
+  font-family: 'Open Sans', serif ;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.marketing-cards__tag {
+  margin: 32px 0 0 33px;
+  display: flex;
+}
+
+.marketing-cards__tag button {
+  margin-right: 9px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  background: #F5F5F5;
+  border-radius: 90px;
+  border: none;
+  transition: 0.3s;
+  font-family: 'Open Sans', serif;
+}
