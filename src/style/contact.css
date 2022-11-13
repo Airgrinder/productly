@@ -1,0 +1,132 @@
+.contact {
+  margin-top: 79px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #FFEEE1;
+}
+
+.content-wrapper {
+  width: 1440px;
+  height: 501px;
+}
+
+.content-heading {
+  margin: 62px 0 0 122px;
+  font-family: 'Open Sans', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  color: #2F281E;
+}
+
+.contact-description {
+  display: flex;
+  margin: 17px 0 0 122px;
+  font-family: 'Open Sans', serif;
+  color: #544837;
+}
+
+.contact-description__about {
+  width: 521px;
+  height: 182px;
+  line-height: 26px;
+}
+
+.contact-description__tel {
+  margin-top: 29px;
+  display: flex;
+}
+
+.contact-description__tel a {
+  margin-left: 11px;
+  font-size: 25px;
+  color: #544837;
+}
+
+.contact-description__email {
+  margin-top: 11px;
+  display: flex;
+}
+
+.contact-description__email a {
+  margin-left: 11px;
+  font-size: 25px;
+  color: #544837;
+}
+
+.contact-description__email img {
+  place-self: self-end;
+}
+
+input {
+  border-radius: 5px;
+  border: 0;
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
+  line-height: 26px;
+  text-indent: 19px;
+}
+
+input::placeholder {
+  margin-top: 100px;
+  color: #C6C6C6;
+}
+
+.contact-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: -1px 0 0 98px;
+}
+
+.contact-inputs-nameEmail {
+  display: flex;
+  justify-content: space-between;
+  width: 577px;
+}
+
+.contact-inputs-nameEmail input {
+  width: 276px;
+  height: 43px;
+}
+
+.content-input-ask {
+  margin-top: 18px;
+  width: 573px;
+  height: 148px;
+  border-radius: 5px;
+  border: 0;
+  font-family: 'Open Sans', serif;
+  font-size: 16px;
+  line-height: 26px;
+  text-indent: 19px;
+  padding-top: 9px;
+  resize: none;
+}
+
+.content-input-ask::placeholder {
+  color: #C6C6C6;
+}
+
+.contact-inputs button {
+  margin-top: 20px;
+  width: 117px;
+  height: 53px;
+  border-radius: 4px;
+  border: none;
+  font-family: 'Open Sans', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  background: #FF9900;
+  color: #FFFFFF;
+  transition: 0.3s;
+}
+
+.contact-inputs button:hover {
+  background: #FF7549;
+}

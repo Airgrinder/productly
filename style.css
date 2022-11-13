@@ -4,6 +4,8 @@
 @import "src/style/hero.css";
 @import "src/style/we-design.css";
 @import "src/style/marketing.css";
+@import "src/style/about.css";
+@import "src/style/contact.css";
 
 * {
   text-decoration: none;

@@ -1,0 +1,63 @@
+.about {
+  width: 1440px;
+}
+
+.about h1 {
+  margin: 97px 0 0 122px;
+  font-family: 'Open Sans', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  color: #2F281E;
+}
+
+.about-description {
+  margin: 15px 0 0 122px;
+  width: 1200px;
+  font-family: 'Open Sans', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+}
+
+.about-team {
+  margin: 44px 0 0 122px;
+  display: flex;
+}
+
+.about-team__item {
+  margin-right: 7px;
+  padding-left: 35px;
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  height: 141px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  font-family: 'Open Sans', serif;
+  color: #544837;
+}
+
+.about-team__item h3 {
+  margin-top: 38px;
+  font-size: 16px;
+}
+
+.about-team__item span {
+  margin-top: 2px;
+  font-size: 14px;
+}
+
+.about-team__item a {
+  margin-top: 3px;
+  font-size: 14px;
+  color: #1943EF;
+}
+
+.avatar {
+  margin: 5px 0 0 -101px;
+}
